@@ -11,6 +11,7 @@ Built for the reality of an early-stage (seed to Series B) product team: small t
 | [`opportunity-solution-tree`](skills/opportunity-solution-tree/SKILL.md) | Builds an Opportunity Solution Tree from interview transcripts, raw notes, data or just a goal, attaches a KPI to the outcome and leading indicators to opportunities, compares opportunities to pick a target, breaks solutions into assumptions and designs tests. RICE/ICE for solutions. | "Here are 6 interview transcripts, build our OST for activation." |
 | [`stakeholder-update`](skills/stakeholder-update/SKILL.md) | Turns messy notes into a bottom-line-up-front update for the CEO, board, team, sales or customers. Outcomes over activity, honest status, one clear ask. | "Write my Friday update for the CEO from these notes." |
 | [`user-interview-synthesis`](skills/user-interview-synthesis/SKILL.md) | Interview snapshots and cross-interview synthesis: evidence-counted themes, verbatim quotes, JTBD, and opportunities in customer voice that drop straight into the OST. | "Synthesize these 8 interview transcripts." |
+| [`unslop`](skills/unslop/SKILL.md) | Cuts long, AI-generated PRDs down to the decisions, numbers and open questions. Strips filler and rhetorical tics, never invents metrics, and turns every missing decision into an open question. Ends with a word-count report. | "Unslop this PRD." |
 
 They chain: **interviews → opportunities → OST → tests → stakeholder update.**
 

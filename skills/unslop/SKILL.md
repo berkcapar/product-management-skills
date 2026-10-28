@@ -56,6 +56,8 @@ Append the short report described below.
 
 **TL;DR:** max 3 sentences. What, for whom, why now.
 
+Status: … · Owner: … · Target date: …
+
 ## Problem
 What is broken and the evidence from the source. No evidence → open question.
 
@@ -79,6 +81,8 @@ Missing values → open question, never a guess.
 ```
 
 If a section has nothing in the source, write one line pointing to the open question (e.g. "Not specified, see Q2"). Do not delete the section silently; an empty section is information.
+
+The status line carries what the source says about status, owner and date, word for word. A team instead of a person counts as "no named owner"; a missing date is "not set". Either one also becomes an open question.
 
 Rough length target: under ~1 page (~500 words) for a typical PRD, usually 20–35% of the original. Docs with many real decisions can be longer. Docs with few decisions should be shorter.
 
@@ -142,7 +146,11 @@ Unslop report
 - Invented content: none
 ```
 
+Count words, never estimate them. If you can run code, use `scripts/wordcount.py` on the source and on your rewrite (`python3 scripts/wordcount.py before.md after.md`). If you can't, count by its rule: words of text only, markdown syntax (headers, table pipes, list markers, link URLs) excluded, and say the count is manual.
+
 If you had to make any interpretation call (e.g. merging two contradictory scope statements), list it in one line each under the report. Nothing else: no summary of the doc, no list of every cut.
+
+A full worked example (an iPad calculator PRD, before and after) is in the repo's `examples/unslop.md`.
 
 ## Non-PRD inputs
 For updates, memos, strategy docs or long messages, apply the same rules (extract, sentence test, gap check, slop pass, report) but skip the PRD template. Keep the doc's purpose and put the conclusion or ask in the first two sentences.

@@ -21,6 +21,8 @@ A classic product sense question ("get more music listeners into a weekly podcas
 
 ![OST example](examples/ost-example.png)
 
+An AI-written iPad calculator PRD before and after `unslop`: 1,033 → 658 words, nothing invented, 12 open questions the original never asked: [examples/unslop.md](examples/unslop.md)
+
 ## Design principles
 
 - **Ask before answering.** Each skill checks for the context it needs (outcome, audience, research question) and asks at most three questions before working.
